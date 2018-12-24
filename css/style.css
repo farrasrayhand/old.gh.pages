@@ -144,7 +144,6 @@ body {
 .intro {
     width: 100%;
     height: 100vh;
-    background-image: url(http://www.samsung.com/global/galaxy/galaxy-s8/design/images/galaxy-s8-kv-background_l.jpg);
     background-position: center top;
     background-attachment: fixed;
     display: flex;
