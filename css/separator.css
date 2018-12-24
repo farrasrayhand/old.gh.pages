@@ -81,7 +81,6 @@ section p {
 /* Common style for pseudo-elements */
 section::before,
 section::after {
-  position: absolute;
   content: '';
   pointer-events: none;
 }
