@@ -1,7 +1,6 @@
-footer{ background-color: #282828; text-align: center; } 
 .flex-center {
   width: 100%;
-  min-height: 20vh;
+  min-height: 15vh;
   background: #282828;
   display: -webkit-box;
   display: -webkit-flex;
