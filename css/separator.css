@@ -22,7 +22,7 @@ body {
 }
 
 .container svg {
-  display: block;
+  display: block-;
 }
 
 section {
@@ -69,7 +69,7 @@ section p {
 }
 
 .column {
-  display: inline-block;
+  display: inline-block-;
   vertical-align: top;
 }
 
@@ -268,7 +268,7 @@ svg#bigTriangleColor {
   right: 0;
   left: 0;
   z-index: 10;
-  display: block;
+  display: block-;
   height: 90px;
   background-size: 50px 100%;
 }
@@ -407,7 +407,7 @@ svg#bigTriangleColor {
 }
 @media screen and (max-width: 54em) {
   .column {
-    display: block;
+    display: block-;
     width: 100% !important;
   }
 
