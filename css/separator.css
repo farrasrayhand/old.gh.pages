@@ -13,14 +13,14 @@ body {
   padding: 0px;
   margin: 0px;
 }
-
+/*
 .container {
   overflow: hidden;
   width: 100%;
   margin: 0px;
   /* we don't want the pseudo-elements sticking out */
 }
-
+*/
 .container svg {
   display: block-;
 }
