@@ -135,8 +135,11 @@ aside:hover .profile-social-links li:nth-child(4) {
 aside:hover .profile-social-links li:nth-child(5) {
   transition: .3s all ease 1.75s;
 }
-aside:hover .profile-social-links li:last-child {
+aside:hover .profile-social-links li:nth-child(6) {
   transition: .3s all ease 1.8s;
+}
+aside:hover .profile-social-links li:last-child {
+  transition: .3s all ease 1.85s;
 }
 aside:before {
   content: "";
