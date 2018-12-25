@@ -55,7 +55,7 @@ body {
 
 body:after {
   content: "Hover the bouncing ball.";
-  position: absolute;
+  position: fixed;
   top: 100px;
   left: 0;
   right: 0;
@@ -174,7 +174,7 @@ aside header:before {
   left: 0;
   right: 0;
   height: 200px;
-  background: url("http://balapastudio.co/almond/images/demo/balapa.png") no-repeat;
+  background: url("images/bg.jpg") no-repeat;
   background-size: cover;
   -webkit-transform: translate3d(0, -100%, 0);
           transform: translate3d(0, -100%, 0);
