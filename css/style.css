@@ -136,7 +136,7 @@ aside:hover .profile-social-links li:nth-child(4) {
   transition: .6s all ease 1.75s;
 }
 aside:hover .profile-social-links li:nth-child(5) {
-  transition: .6s all ease 1.8;
+  transition: .6s all ease 1.8s;
 }
 aside:hover .profile-social-links li:last-child {
   transition: .6s all ease 1.85s;
