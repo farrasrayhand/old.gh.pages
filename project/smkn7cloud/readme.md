@@ -1,5 +1,5 @@
 # Nextcloud [SMKN7Cloud.ddns.my.id](https://smkn7cloud.ddns.my.id/)
-
+Membangun, Mengkonfigurasi dan Mengonlinekan Server Lokal Nextcloud
 ## Screenshoot :
 <div align="left">
 <img src="https://farrasrayhand.github.io/project/smkn7cloud/ss1.png" alt="Login" />
