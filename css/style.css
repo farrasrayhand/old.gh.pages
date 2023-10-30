@@ -17,6 +17,19 @@ body {
   animation: Gradient 15s ease infinite;
 }
 
+/* Smaller screens, like phones */
+@media (max-width: 768px) {
+  aside {
+    width: 90%;
+  }
+
+  aside header a {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
