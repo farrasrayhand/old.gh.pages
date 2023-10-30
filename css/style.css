@@ -17,51 +17,6 @@ body {
   animation: Gradient 15s ease infinite;
 }
 
-/* Add this in your CSS file or in a <style> block within your HTML file */
-
-/* Flexbox layout for main container */
-aside {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-/* Media query for smaller screens (e.g., phones) */
-@media (max-width: 480px) {
-  aside {
-    width: 100%;
-  }
-
-  aside header a {
-    width: 80px;
-    height: 80px;
-  }
-
-  aside header h1 {
-    font-size: 1.5rem;
-  }
-
-  aside header h2 {
-    font-size: 0.9rem;
-  }
-}
-
-/* Media query for medium screens (e.g., tablets) */
-@media (min-width: 481px) and (max-width: 1024px) {
-  aside {
-    width: 80%;
-  }
-}
-
-/* Media query for large screens (desktops) */
-@media (min-width: 1025px) {
-  aside {
-    width: 50%;
-  }
-}
-
-
-
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
@@ -386,3 +341,44 @@ aside .profile-social-links li a img {
   border: 5px solid rgba(255, 255, 255, 0.75);
   float: right;
 }
+
+/* Original CSS Styles (Before Media Queries) */
+
+/* Add your original CSS styles here */
+
+/* Media Queries for Responsiveness */
+
+/* For screens smaller than 768px wide */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+  aside {
+    width: 100%;
+    margin: 0;
+  }
+  aside header a {
+    margin: 0;
+  }
+}
+
+/* For screens smaller than 480px wide */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+  aside header h1 {
+    font-size: 1.5rem;
+  }
+  aside header h2 {
+    font-size: 0.9rem;
+  }
+  aside .profile-bio p {
+    font-size: 0.8rem;
+  }
+  aside .profile-social-links li {
+    margin: 0 3px;
+  }
+}
+
+/* Add more media queries as needed for specific screen sizes */
