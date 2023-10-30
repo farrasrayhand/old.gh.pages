@@ -17,33 +17,6 @@ body {
   animation: Gradient 15s ease infinite;
 }
 
-/* Add this in your CSS file or in a <style> block within your HTML file */
-
-/* Media query for smaller screens (e.g., phones) */
-@media (max-width: 768px) {
-  aside {
-    width: 90%;
-  }
-
-  aside header a {
-    width: 80px;
-    height: 80px;
-  }
-
-  aside header h1 {
-    font-size: 1.5rem;
-  }
-
-  aside header h2 {
-    font-size: 0.9rem;
-  }
-
-  aside .profile-social-links li {
-    margin: 0 3px;
-  }
-}
-
-
 @-webkit-keyframes Gradient {
   0% {
     background-position: 0% 50%
