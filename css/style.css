@@ -19,10 +19,17 @@ body {
 
 /* Add this in your CSS file or in a <style> block within your HTML file */
 
+/* Flexbox layout for main container */
+aside {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* Media query for smaller screens (e.g., phones) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   aside {
-    width: 90%;
+    width: 100%;
   }
 
   aside header a {
@@ -37,11 +44,22 @@ body {
   aside header h2 {
     font-size: 0.9rem;
   }
+}
 
-  aside .profile-social-links li {
-    margin: 0 3px;
+/* Media query for medium screens (e.g., tablets) */
+@media (min-width: 481px) and (max-width: 1024px) {
+  aside {
+    width: 80%;
   }
 }
+
+/* Media query for large screens (desktops) */
+@media (min-width: 1025px) {
+  aside {
+    width: 50%;
+  }
+}
+
 
 
 @-webkit-keyframes Gradient {
