@@ -342,43 +342,53 @@ aside .profile-social-links li a img {
   float: right;
 }
 
-/* Original CSS Styles (Before Media Queries) */
+/* Mobile-first responsive design */
 
-/* Add your original CSS styles here */
+/* Reset styles for smaller screens */
+body:before {
+  display: none;
+}
 
-/* Media Queries for Responsiveness */
+aside {
+  width: 90%; /* Adjust the width for smaller screens */
+  margin: 0 auto;
+  top: 20%;
+}
 
-/* For screens smaller than 768px wide */
-@media (max-width: 768px) {
-  body {
-    font-size: 14px;
-  }
+aside header {
+  text-align: center;
+}
+
+aside header a {
+  margin: 0 auto 20px;
+  top: 20px;
+}
+
+aside header h1 {
+  font-size: 1.5rem; /* Decrease font size for smaller screens */
+}
+
+aside header h2 {
+  font-size: 1rem; /* Decrease font size for smaller screens */
+}
+
+aside .profile-bio {
+  padding: 5px 10px; /* Adjust padding for smaller screens */
+}
+
+aside .profile-social-links li a {
+  width: 25px; /* Adjust the size of social icons for smaller screens */
+  margin: 0 5px;
+}
+
+/* Responsive styles for larger screens */
+@media (min-width: 768px) {
   aside {
-    width: 100%;
-    margin: 0;
+    width: 350px; /* Restore the original width for larger screens */
   }
+
   aside header a {
-    margin: 0;
+    margin: 0 auto 100px;
+    top: 50px;
   }
 }
-
-/* For screens smaller than 480px wide */
-@media (max-width: 480px) {
-  body {
-    font-size: 12px;
-  }
-  aside header h1 {
-    font-size: 1.5rem;
-  }
-  aside header h2 {
-    font-size: 0.9rem;
-  }
-  aside .profile-bio p {
-    font-size: 0.8rem;
-  }
-  aside .profile-social-links li {
-    margin: 0 3px;
-  }
-}
-
-/* Add more media queries as needed for specific screen sizes */
